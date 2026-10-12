@@ -1,0 +1,17 @@
+{
+  "name": "almunaiei-gifted-school",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "مدرسة المنيعي – الموهوبات (Netlify + Functions + Blobs)",
+  "scripts": {
+    "dev": "netlify dev",
+    "deploy": "netlify deploy --prod"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  }
+}
